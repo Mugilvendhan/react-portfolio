@@ -26,12 +26,12 @@ const Experience = () => {
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
                     viewport={{ once: true }} 
-                    className="w-full max-w-xl lg:w-3/4">
+                    className="w-full max-w-xl flex-wrap lg:w-3/4">
                         <h6 className="mb-2 font-semibold">{experience.role} - <a className="shadow-sm hover:shadow-gray-600" target="_blank" href={experience.link}><span className="text   text-gray-400">{experience.company}</span></a> </h6>
-                    <p className="mb-4 font-thin text-center sm:text-left  text-neutral-200">{experience.description}</p>
-                  <div className="flex-wrap ">
+                    <p className="mb-4 font-thin text-left  text-neutral-200">{experience.description}</p>
+                  <div className="flex flex-wrap ">
                   {experience.technologies.map((tech,index)=>(
-                        <span key={index} className="mr-2 mt-2 rounded  bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-700">
+                        <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-700">
                             {tech}</span>
                     ))}
                   </div>

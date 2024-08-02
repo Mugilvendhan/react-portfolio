@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     company: "Smartcliff Learning Solutions",
     link:"https://smartcliff.in/",
     description: `During my 6-month physical internship, I immersed myself in frontend technologies, learning and applying tools like HTML, CSS, JavaScript, Bootstrap, React, and Redux. Through hands-on projects, I gained practical experience and honed my skills, transforming ideas into dynamic web applications. This internship was a pivotal experience that shaped my work culture and approach to problem-solving.`,
-    technologies: ["Figma","UI-UX","Javascript", "React.js", "Redux"],
+    technologies: ["Figma","UI/UX","Javascript", "React.js", "Redux"],
   },
   {
     year: "2022 - 2023",

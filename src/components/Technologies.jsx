@@ -41,7 +41,7 @@ const Technologies = () => {
         variants={iconVariants(2.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
           <IoLogoJavascript className="text-5xl mb-1 text-yellow-400" />
           <span className="text-xs text-yellow-400">JavaScript</span>
         </motion.div>
@@ -50,7 +50,7 @@ const Technologies = () => {
         variants={iconVariants(5.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
           <FaFigma className="text-5xl mb-1 text-gray-100" />
           <span className="text-xs text-gray-100">Figma</span>
         </motion.div>
@@ -59,7 +59,7 @@ const Technologies = () => {
         variants={iconVariants(3)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
           <RiReactjsLine className="text-5xl mb-1 text-cyan-400" />
           <span className="text-xs text-cyan-400">React.js</span>
         </motion.div>
@@ -67,7 +67,7 @@ const Technologies = () => {
         variants={iconVariants(3.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
           <SiRedux className="text-5xl mb-1 text-purple-500" />
           <span className="text-xs text-purple-500">Redux</span>
         </motion.div>
@@ -76,7 +76,7 @@ const Technologies = () => {
         variants={iconVariants(4.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
           <RiTailwindCssFill className="text-5xl mb-1 text-cyan-400" />
           <span className="text-xs text-cyan-400">Tailwind</span>
         </motion.div>
@@ -85,7 +85,7 @@ const Technologies = () => {
         variants={iconVariants(5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
           <FaJava className="text-5xl mb-1 text-red-500" />
           <span className="text-xs text-red-500">Java</span>
         </motion.div>
@@ -96,8 +96,8 @@ const Technologies = () => {
         variants={iconVariants(5.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-800 p-4 w-24 h-24 flex flex-col items-center justify-center">
-          <SiSolidity className="text-5xl mb-1 text-gray-500" />
+        className="rounded-2xl shadow-sm hover:shadow-gray-700 border-4 border-neutral-700 p-4 w-24 h-24 flex flex-col items-center justify-center">
+          <SiSolidity className="text-5xl mb-1 text-gray-400" />
           <span className="text-xs text-gray-500">Solidity</span>
         </motion.div>
       </motion.div>

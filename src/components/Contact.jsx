@@ -1,9 +1,9 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { SiOpensea } from "react-icons/si"
-import EmailButton from "./Email"
 import { motion } from "framer-motion";
 import logo from "../assets/Logo_black.jpg"
+import EmailLink from "./Email";
 
 const iconVariants = (duration)=>({
     initial:{y:10},
@@ -69,7 +69,7 @@ const Contact = () => {
          transition={{duration:1}}
          viewport={{ once: true }} 
         className="mb-4">
-            <EmailButton/>
+            <EmailLink/>
         </motion.div> 
         <div className="flex items-center justify-center ">
         <a className="scroll-smooth" href='#'><h1 className="scroll-smooth font-thin text-xs mb-0">powered by</h1></a> 
