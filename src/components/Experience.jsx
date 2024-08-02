@@ -27,7 +27,7 @@ const Experience = () => {
                     transition={{duration:1}}
                     viewport={{ once: true }} 
                     className="w-full max-w-xl flex-wrap lg:w-3/4">
-                        <h6 className="mb-2 font-semibold">{experience.role} - <a className="shadow-sm hover:shadow-gray-600" target="_blank" href={experience.link}><span className="text   text-gray-400">{experience.company}</span></a> </h6>
+                        <h6 className="mb-2 font-semibold">{experience.role} - <a className=" underline decoration-gray-400" target="_blank" href={experience.link}><span className="text  text-gray-400">{experience.company}</span></a> </h6>
                     <p className="mb-4 font-thin text-left  text-neutral-200">{experience.description}</p>
                   <div className="flex flex-wrap ">
                   {experience.technologies.map((tech,index)=>(

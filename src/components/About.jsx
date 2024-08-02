@@ -27,12 +27,12 @@ const About = () => {
               transition={{duration:1.5}}
               viewport={{ once: true }} 
             className="w-full lg:w-1/2">
-                <div className="justify-center lg:justify-start">
-                    <p className="my-2 max-w-xl font-thin text-neutral-200 text-left ">I am a passionate Frontend Developer with hands-on experience 
+                <div className="justify-center md:px-20 lg:px-0 lg:justify-start">
+                    <p className="my-2  max-w-xl font-thin text-neutral-200 md:text-left">I am a passionate Frontend Developer with hands-on experience 
                         gained through internships, specializing in crafting intuitive user interfaces using HTML, CSS, JavaScript, Bootstrap, 
                         React, and Redux. My journey in web development has equipped me with the skills to create responsive and dynamic web 
                         applications that enhance user experiences.</p>
-                        <p className="my-2 max-w-xl font-thin text-neutral-200 text-left  ">Additionally, I am enthusiastic about Web3 technologies 
+                        <p className="my-2 max-w-xl font-thin text-neutral-200 md:text-left  ">Additionally, I am enthusiastic about Web3 technologies 
                             and have started projects that transition from Web2 to Web3, exploring decentralized applications and blockchain
                              integration. I am committed to continuous learning and innovation, aiming to contribute to projects that push the 
                              boundaries of technology and deliver exceptional value.</p>

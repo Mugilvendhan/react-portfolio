@@ -73,7 +73,7 @@ const Contact = () => {
         </motion.div> 
         <div className="flex items-center justify-center ">
         <a className="scroll-smooth" href='#'><h1 className="scroll-smooth font-thin text-xs mb-0">powered by</h1></a> 
-        <img className="rounded w-10 px-2" src={logo}/>
+        <a href="#"><img className="rounded w-10 px-2" src={logo}/></a>
         </div>
        
     </div>

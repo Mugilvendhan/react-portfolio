@@ -56,7 +56,7 @@ export const PROJECTS = [
      image: project2,
      link:"https://github.com/Mugilvendhan/projectapi",
     description:
-      "The Airport Api website enables users to access comprehensive information about airports globally ,They can easily search and view details such as location, name of flight. city.",
+      "The Airport Api website enables users to access comprehensive information about airports globally ,They can easily search and view details such as location, name of flight and city.",
     technologies: ["React-Bootsrap", "Redux", "API"],
   },
   {

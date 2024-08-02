@@ -41,7 +41,7 @@ const Hero = () => {
                      variants={container(1)}
                      initial="hidden"
                      animate="visible"
-                    className='my-2 max-w-xl font-thin  text-neutral-200 mb-5 text-left '>I am a passionate Frontend Developer dedicated to building intuitive and responsive web applications that elevate user engagement and innovative solutions.</motion.p>
+                    className='my-2 max-w-xl font-thin md:px-24 lg:px-0  text-neutral-200 mb-5 text-left '>I am a passionate Frontend Developer dedicated to building intuitive and responsive web applications that elevate user engagement and innovative solutions.</motion.p>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-6">
