@@ -2,6 +2,7 @@ import project1 from "../assets/projects/issue1.png"
 import project2 from "../assets/projects/Airportapi.png"
 import project3 from "../assets/projects/Recipe.png"
 import project4 from "../assets/projects/createnft.png"
+import project5 from "../assets/projects/crypto_thumbnile.png"
 import exc1 from "../assets/sc_logo.png"
 import exc2 from "../assets/ibcmedia_logo.png"
 import exc3 from "../assets/unit_logo.png"
@@ -43,6 +44,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "UptoDate-Crypto",
+     image: project5,
+     link:"https://main--uptodatecrypto.netlify.app/",
+    description:
+      "a website where you can explore comprehensive details about the crypto world, including the number of cryptocurrencies, Marketcap, historical charts, exchange details, and the latest news.",
+    technologies: ["React", "Redux","Api-calls"],
+  },
   {
     title: "College Issue Tracking System",
      image: project1,
